@@ -20,11 +20,18 @@ Your repository must include a `README.md` with all of the following:
 
 3. Your **GitHub Pages link**
    https://juliatocher469.github.io/26-Fall-CIT-384-HW9-JT/
-4. Path to a screenshot file of the finished webpage
+   
+5. Path to a screenshot file of the finished webpage
+   images/liveSite.png
    
 6. A short reflection of **4-5 sentences** that answers:
    - What part was easiest?
+      The easiest part was creating the variables and placing the values in them.
    - What part was hardest?
+      The hardest part was remembering what value was in the variable after there was math applied to the value. I have to remember that variables can            change as we add mathematical problems to them, so in the beginning of the code snippet it could be one number meanwhile toward the end it could be          an entirely different number.
    - What did you learn about the `Date` object?
+        I learned that the Date() object actually retrieves the current timestamp from the underlying operating system clock of the machine that's running          the code.
    - What did you learn about the `Number` object?
+        I learned that the Number() object is a built-in feature for JavaScript, it serves to convert numbers and it also has it's own methods like isNaN          and isInteger. The methods returns Boolean values of true or false depending on what you're asking of the number.
    - What did you learn about displaying results in the browser?
+        Displaying my results in the browser seemed to be the same or similar to displaying just my html. I did learn that you can load your javascript             results into the console if need be.
