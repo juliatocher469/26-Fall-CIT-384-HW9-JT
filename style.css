@@ -1,0 +1,57 @@
+/* Page background and base font */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Shared card style for each section */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #999;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.card p,
+.card div {
+  margin: 0;
+}
+
+/* A different accent color for each section */
+.date-card {
+  border-top-color: #4a90d9;
+}
+.date-card h2 {
+  color: #4a90d9;
+}
+
+.number-card {
+  border-top-color: #8e5bd0;
+}
+.number-card h2 {
+  color: #8e5bd0;
+}
+
+.math-card {
+  border-top-color: #2e9e6b;
+}
+.math-card h2 {
+  color: #2e9e6b;
+}
